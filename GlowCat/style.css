@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    object-fit:contain;
+    
+}
+
+.container{
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+        
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.but{
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 8px solid black;
+    cursor: pointer;
+}

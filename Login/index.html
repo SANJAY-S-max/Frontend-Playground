@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!--FireBase SDK-->
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Login</h2>
+      <form id="loginForm">
+         <div class="input-group">
+           <input type="text" id="username" placeholder="Username">
+           <div class="error" id="userError">Invalid username</div>
+         </div>
+     
+         <div class="input-group">
+           <input type="password" id="password" placeholder="Password">
+           <div class="error" id="passError">Invalid password</div>
+         </div>
+     
+         <button type="submit">Login</button>
+      </form>
+      <div class="footer">Don't have an account? Sign up</div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
